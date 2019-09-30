@@ -11,6 +11,8 @@ import org.pet.clinic.data.Services.OwnerService;
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 
+import lombok.RequiredArgsConstructor;
+
 @Service
 @Profile("springdatajpa")
 public class OwnerSpringDataJpaService implements OwnerService {

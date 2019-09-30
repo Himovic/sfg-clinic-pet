@@ -36,12 +36,12 @@ public class DataLoader implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 		// TODO Auto-generated method stub
-		loadData();
-		//int count = petTypeService.findAll().size();
-		//System.out.println("Count : "+count);
-		/*if(count == 0) {
+		System.out.println("Start");
+		int count = petTypeService.findAll().size();
+		System.out.println("Count : "+count);
+		if(count == 0) {
 			loadData();
-		}*/
+		}
 	}
 
 	private void loadData() {
